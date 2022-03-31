@@ -80,7 +80,7 @@ Module['ColorDefinition'] = ColorDefinition;
 
 ColorDefinition.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ColorDefinition_getId_0(self));
+  return UTF8ToString(_emscripten_bind_ColorDefinition_getId_0(self));
 };
 
 ColorDefinition.prototype['setId'] = function(arg0) {
@@ -97,7 +97,7 @@ ColorDefinition.prototype['isSetId'] = function() {
 
 ColorDefinition.prototype['createValueString'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ColorDefinition_createValueString_0(self));
+  return UTF8ToString(_emscripten_bind_ColorDefinition_createValueString_0(self));
 };
 
 ColorDefinition.prototype['setColorValue'] = function(arg0) {
@@ -182,7 +182,7 @@ Module['GradientBase'] = GradientBase;
 
 GradientBase.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GradientBase_getId_0(self));
+  return UTF8ToString(_emscripten_bind_GradientBase_getId_0(self));
 };
 
 GradientBase.prototype['setId'] = function(arg0) {
@@ -228,7 +228,7 @@ Module['GlobalStyle'] = GlobalStyle;
 
 GlobalStyle.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalStyle_getId_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalStyle_getId_0(self));
 };
 
 GlobalStyle.prototype['setId'] = function(arg0) {
@@ -245,7 +245,7 @@ GlobalStyle.prototype['isSetId'] = function() {
 
 GlobalStyle.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalStyle_getName_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalStyle_getName_0(self));
 };
 
 GlobalStyle.prototype['setName'] = function(arg0) {
@@ -274,12 +274,12 @@ GlobalStyle.prototype['getNumRoles'] = function() {
 
 GlobalStyle.prototype['createRoleString'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalStyle_createRoleString_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalStyle_createRoleString_0(self));
 };
 
 GlobalStyle.prototype['createTypeString'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalStyle_createTypeString_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalStyle_createTypeString_0(self));
 };
 
 GlobalStyle.prototype['addRole'] = function(arg0) {
@@ -343,7 +343,7 @@ Module['Layout'] = Layout;
 
 Layout.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Layout_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Layout_getId_0(self));
 };
 
 Layout.prototype['setId'] = function(arg0) {
@@ -579,7 +579,7 @@ Module['CubicBezier'] = CubicBezier;
 
 CubicBezier.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_CubicBezier_getId_0(self));
+  return UTF8ToString(_emscripten_bind_CubicBezier_getId_0(self));
 };
 
 CubicBezier.prototype['setId'] = function(arg0) {
@@ -708,7 +708,7 @@ RenderPoint.prototype['initDefaults'] = function() {
 
 RenderPoint.prototype['getElementName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderPoint_getElementName_0(self));
+  return UTF8ToString(_emscripten_bind_RenderPoint_getElementName_0(self));
 };
 
 RenderPoint.prototype['hasRequiredElements'] = function() {
@@ -730,7 +730,7 @@ Module['LocalRenderInformation'] = LocalRenderInformation;
 
 LocalRenderInformation.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalRenderInformation_getId_0(self));
+  return UTF8ToString(_emscripten_bind_LocalRenderInformation_getId_0(self));
 };
 
 LocalRenderInformation.prototype['setId'] = function(arg0) {
@@ -747,7 +747,7 @@ LocalRenderInformation.prototype['isSetId'] = function() {
 
 LocalRenderInformation.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalRenderInformation_getName_0(self));
+  return UTF8ToString(_emscripten_bind_LocalRenderInformation_getName_0(self));
 };
 
 LocalRenderInformation.prototype['setName'] = function(arg0) {
@@ -764,7 +764,7 @@ LocalRenderInformation.prototype['isSetName'] = function() {
 
 LocalRenderInformation.prototype['getProgramVersion'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalRenderInformation_getProgramVersion_0(self));
+  return UTF8ToString(_emscripten_bind_LocalRenderInformation_getProgramVersion_0(self));
 };
 
 LocalRenderInformation.prototype['setProgramVersion'] = function(arg0) {
@@ -776,7 +776,7 @@ LocalRenderInformation.prototype['setProgramVersion'] = function(arg0) {
 
 LocalRenderInformation.prototype['getProgramName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalRenderInformation_getProgramName_0(self));
+  return UTF8ToString(_emscripten_bind_LocalRenderInformation_getProgramName_0(self));
 };
 
 LocalRenderInformation.prototype['setProgramName'] = function(arg0) {
@@ -788,7 +788,7 @@ LocalRenderInformation.prototype['setProgramName'] = function(arg0) {
 
 LocalRenderInformation.prototype['getBackgroundColor'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalRenderInformation_getBackgroundColor_0(self));
+  return UTF8ToString(_emscripten_bind_LocalRenderInformation_getBackgroundColor_0(self));
 };
 
 LocalRenderInformation.prototype['setBackgroundColor'] = function(arg0) {
@@ -908,7 +908,7 @@ Module['AssignmentRule'] = AssignmentRule;
 
 AssignmentRule.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_AssignmentRule_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_AssignmentRule_getMetaId_0(self));
 };
 
 AssignmentRule.prototype['setMetaId'] = function(arg0) {
@@ -942,7 +942,7 @@ AssignmentRule.prototype['isSetSBOTerm'] = function() {
 
 AssignmentRule.prototype['getVariable'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_AssignmentRule_getVariable_0(self));
+  return UTF8ToString(_emscripten_bind_AssignmentRule_getVariable_0(self));
 };
 
 AssignmentRule.prototype['setVariable'] = function(arg0) {
@@ -976,7 +976,7 @@ AssignmentRule.prototype['isSetMath'] = function() {
 
 AssignmentRule.prototype['getFormula'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_AssignmentRule_getFormula_0(self));
+  return UTF8ToString(_emscripten_bind_AssignmentRule_getFormula_0(self));
 };
 
 AssignmentRule.prototype['setFormula'] = function(arg0) {
@@ -1022,7 +1022,7 @@ KineticLaw.prototype['isSetMath'] = function() {
 
 KineticLaw.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_KineticLaw_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_KineticLaw_getMetaId_0(self));
 };
 
 KineticLaw.prototype['setMetaId'] = function(arg0) {
@@ -1068,7 +1068,7 @@ KineticLaw.prototype['getParameter'] = function(arg0) {
 
 KineticLaw.prototype['getFormula'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_KineticLaw_getFormula_0(self));
+  return UTF8ToString(_emscripten_bind_KineticLaw_getFormula_0(self));
 };
 
 KineticLaw.prototype['setFormula'] = function(arg0) {
@@ -1146,7 +1146,7 @@ Module['LineEnding'] = LineEnding;
 
 LineEnding.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LineEnding_getId_0(self));
+  return UTF8ToString(_emscripten_bind_LineEnding_getId_0(self));
 };
 
 LineEnding.prototype['setId'] = function(arg0) {
@@ -1214,12 +1214,12 @@ Module['RenderExtensionWrapper'] = RenderExtensionWrapper;
 
 RenderExtensionWrapper.prototype['getXmlnsL2'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderExtensionWrapper_getXmlnsL2_0(self));
+  return UTF8ToString(_emscripten_bind_RenderExtensionWrapper_getXmlnsL2_0(self));
 };
 
 RenderExtensionWrapper.prototype['getXmlnsL3V1V1'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderExtensionWrapper_getXmlnsL3V1V1_0(self));
+  return UTF8ToString(_emscripten_bind_RenderExtensionWrapper_getXmlnsL3V1V1_0(self));
 };
 
   RenderExtensionWrapper.prototype['__destroy__'] = function() {
@@ -1295,7 +1295,7 @@ Module['GraphicalObject'] = GraphicalObject;
 
 GraphicalObject.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GraphicalObject_getId_0(self));
+  return UTF8ToString(_emscripten_bind_GraphicalObject_getId_0(self));
 };
 
 GraphicalObject.prototype['setId'] = function(arg0) {
@@ -1346,7 +1346,7 @@ Module['Compartment'] = Compartment;
 
 Compartment.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Compartment_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Compartment_getId_0(self));
 };
 
 Compartment.prototype['setId'] = function(arg0) {
@@ -1358,7 +1358,7 @@ Compartment.prototype['setId'] = function(arg0) {
 
 Compartment.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Compartment_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_Compartment_getMetaId_0(self));
 };
 
 Compartment.prototype['setMetaId'] = function(arg0) {
@@ -1399,7 +1399,7 @@ Compartment.prototype['setVolume'] = function(arg0) {
 
 Compartment.prototype['getUnits'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Compartment_getUnits_0(self));
+  return UTF8ToString(_emscripten_bind_Compartment_getUnits_0(self));
 };
 
 Compartment.prototype['setUnits'] = function(arg0) {
@@ -1445,7 +1445,7 @@ Module['Parameter'] = Parameter;
 
 Parameter.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Parameter_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Parameter_getId_0(self));
 };
 
 Parameter.prototype['setId'] = function(arg0) {
@@ -1457,7 +1457,7 @@ Parameter.prototype['setId'] = function(arg0) {
 
 Parameter.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Parameter_getName_0(self));
+  return UTF8ToString(_emscripten_bind_Parameter_getName_0(self));
 };
 
 Parameter.prototype['setName'] = function(arg0) {
@@ -1496,7 +1496,7 @@ Parameter.prototype['isSetUnits'] = function() {
 
 Parameter.prototype['getUnits'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Parameter_getUnits_0(self));
+  return UTF8ToString(_emscripten_bind_Parameter_getUnits_0(self));
 };
 
 Parameter.prototype['setUnits'] = function(arg0) {
@@ -1716,7 +1716,7 @@ ASTNode.prototype['isSetUnits'] = function() {
 
 ASTNode.prototype['getUnits'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ASTNode_getUnits_0(self));
+  return UTF8ToString(_emscripten_bind_ASTNode_getUnits_0(self));
 };
 
 ASTNode.prototype['setUnits'] = function(arg0) {
@@ -1728,7 +1728,7 @@ ASTNode.prototype['setUnits'] = function(arg0) {
 
 ASTNode.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ASTNode_getName_0(self));
+  return UTF8ToString(_emscripten_bind_ASTNode_getName_0(self));
 };
 
 ASTNode.prototype['setName'] = function(arg0) {
@@ -1764,7 +1764,7 @@ Module['RadialGradient'] = RadialGradient;
 
 RadialGradient.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RadialGradient_getId_0(self));
+  return UTF8ToString(_emscripten_bind_RadialGradient_getId_0(self));
 };
 
 RadialGradient.prototype['setId'] = function(arg0) {
@@ -1822,7 +1822,7 @@ Module['RateRule'] = RateRule;
 
 RateRule.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RateRule_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_RateRule_getMetaId_0(self));
 };
 
 RateRule.prototype['setMetaId'] = function(arg0) {
@@ -1856,7 +1856,7 @@ RateRule.prototype['isSetSBOTerm'] = function() {
 
 RateRule.prototype['getFormula'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RateRule_getFormula_0(self));
+  return UTF8ToString(_emscripten_bind_RateRule_getFormula_0(self));
 };
 
 RateRule.prototype['setFormula'] = function(arg0) {
@@ -1956,7 +1956,7 @@ Module['LocalParameter'] = LocalParameter;
 
 LocalParameter.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalParameter_getId_0(self));
+  return UTF8ToString(_emscripten_bind_LocalParameter_getId_0(self));
 };
 
 LocalParameter.prototype['setId'] = function(arg0) {
@@ -1968,7 +1968,7 @@ LocalParameter.prototype['setId'] = function(arg0) {
 
 LocalParameter.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalParameter_getName_0(self));
+  return UTF8ToString(_emscripten_bind_LocalParameter_getName_0(self));
 };
 
 LocalParameter.prototype['setName'] = function(arg0) {
@@ -2007,7 +2007,7 @@ LocalParameter.prototype['isSetUnits'] = function() {
 
 LocalParameter.prototype['getUnits'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalParameter_getUnits_0(self));
+  return UTF8ToString(_emscripten_bind_LocalParameter_getUnits_0(self));
 };
 
 LocalParameter.prototype['setUnits'] = function(arg0) {
@@ -2031,7 +2031,7 @@ Module['SpeciesReference'] = SpeciesReference;
 
 SpeciesReference.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SpeciesReference_getId_0(self));
+  return UTF8ToString(_emscripten_bind_SpeciesReference_getId_0(self));
 };
 
 SpeciesReference.prototype['setId'] = function(arg0) {
@@ -2043,7 +2043,7 @@ SpeciesReference.prototype['setId'] = function(arg0) {
 
 SpeciesReference.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SpeciesReference_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_SpeciesReference_getMetaId_0(self));
 };
 
 SpeciesReference.prototype['setMetaId'] = function(arg0) {
@@ -2072,7 +2072,7 @@ SpeciesReference.prototype['isSetSBOTerm'] = function() {
 
 SpeciesReference.prototype['getSpecies'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SpeciesReference_getSpecies_0(self));
+  return UTF8ToString(_emscripten_bind_SpeciesReference_getSpecies_0(self));
 };
 
 SpeciesReference.prototype['setSpecies'] = function(arg0) {
@@ -2113,7 +2113,7 @@ Module['ReactionGlyph'] = ReactionGlyph;
 
 ReactionGlyph.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ReactionGlyph_getId_0(self));
+  return UTF8ToString(_emscripten_bind_ReactionGlyph_getId_0(self));
 };
 
 ReactionGlyph.prototype['setId'] = function(arg0) {
@@ -2130,7 +2130,7 @@ ReactionGlyph.prototype['isSetId'] = function() {
 
 ReactionGlyph.prototype['getReactionId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ReactionGlyph_getReactionId_0(self));
+  return UTF8ToString(_emscripten_bind_ReactionGlyph_getReactionId_0(self));
 };
 
 ReactionGlyph.prototype['setReactionId'] = function(arg0) {
@@ -2226,7 +2226,7 @@ Module['LineSegment'] = LineSegment;
 
 LineSegment.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LineSegment_getId_0(self));
+  return UTF8ToString(_emscripten_bind_LineSegment_getId_0(self));
 };
 
 LineSegment.prototype['setId'] = function(arg0) {
@@ -2347,12 +2347,12 @@ Module['LayoutExtensionWrapper'] = LayoutExtensionWrapper;
 
 LayoutExtensionWrapper.prototype['getXmlnsL2'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LayoutExtensionWrapper_getXmlnsL2_0(self));
+  return UTF8ToString(_emscripten_bind_LayoutExtensionWrapper_getXmlnsL2_0(self));
 };
 
 LayoutExtensionWrapper.prototype['getXmlnsL3V1V1'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LayoutExtensionWrapper_getXmlnsL3V1V1_0(self));
+  return UTF8ToString(_emscripten_bind_LayoutExtensionWrapper_getXmlnsL3V1V1_0(self));
 };
 
   LayoutExtensionWrapper.prototype['__destroy__'] = function() {
@@ -2374,7 +2374,7 @@ SBMLWriter.prototype['writeSBMLToString'] = function(arg0) {
   var self = this.ptr;
   if (arg0 && typeof arg0 === 'object') arg0 = arg0.ptr;
   else arg0 = ensureString(arg0);
-  return Pointer_stringify(_emscripten_bind_SBMLWriter_writeSBMLToString_1(self, arg0));
+  return UTF8ToString(_emscripten_bind_SBMLWriter_writeSBMLToString_1(self, arg0));
 };
 
   SBMLWriter.prototype['__destroy__'] = function() {
@@ -2391,7 +2391,7 @@ Module['Reaction'] = Reaction;
 
 Reaction.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Reaction_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Reaction_getId_0(self));
 };
 
 Reaction.prototype['setId'] = function(arg0) {
@@ -2403,7 +2403,7 @@ Reaction.prototype['setId'] = function(arg0) {
 
 Reaction.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Reaction_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_Reaction_getMetaId_0(self));
 };
 
 Reaction.prototype['setMetaId'] = function(arg0) {
@@ -2415,7 +2415,7 @@ Reaction.prototype['setMetaId'] = function(arg0) {
 
 Reaction.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Reaction_getName_0(self));
+  return UTF8ToString(_emscripten_bind_Reaction_getName_0(self));
 };
 
 Reaction.prototype['setName'] = function(arg0) {
@@ -2548,7 +2548,7 @@ Module['SBMLError'] = SBMLError;
 
 SBMLError.prototype['getMessage'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SBMLError_getMessage_0(self));
+  return UTF8ToString(_emscripten_bind_SBMLError_getMessage_0(self));
 };
 
   SBMLError.prototype['__destroy__'] = function() {
@@ -2565,7 +2565,7 @@ Module['ModifierSpeciesReference'] = ModifierSpeciesReference;
 
 ModifierSpeciesReference.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ModifierSpeciesReference_getId_0(self));
+  return UTF8ToString(_emscripten_bind_ModifierSpeciesReference_getId_0(self));
 };
 
 ModifierSpeciesReference.prototype['setId'] = function(arg0) {
@@ -2577,7 +2577,7 @@ ModifierSpeciesReference.prototype['setId'] = function(arg0) {
 
 ModifierSpeciesReference.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ModifierSpeciesReference_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_ModifierSpeciesReference_getMetaId_0(self));
 };
 
 ModifierSpeciesReference.prototype['setMetaId'] = function(arg0) {
@@ -2606,7 +2606,7 @@ ModifierSpeciesReference.prototype['isSetSBOTerm'] = function() {
 
 ModifierSpeciesReference.prototype['getSpecies'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_ModifierSpeciesReference_getSpecies_0(self));
+  return UTF8ToString(_emscripten_bind_ModifierSpeciesReference_getSpecies_0(self));
 };
 
 ModifierSpeciesReference.prototype['setSpecies'] = function(arg0) {
@@ -2705,7 +2705,7 @@ Module['GlobalRenderInformation'] = GlobalRenderInformation;
 
 GlobalRenderInformation.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalRenderInformation_getId_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalRenderInformation_getId_0(self));
 };
 
 GlobalRenderInformation.prototype['setId'] = function(arg0) {
@@ -2722,7 +2722,7 @@ GlobalRenderInformation.prototype['isSetId'] = function() {
 
 GlobalRenderInformation.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalRenderInformation_getName_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalRenderInformation_getName_0(self));
 };
 
 GlobalRenderInformation.prototype['setName'] = function(arg0) {
@@ -2739,7 +2739,7 @@ GlobalRenderInformation.prototype['isSetName'] = function() {
 
 GlobalRenderInformation.prototype['getProgramName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalRenderInformation_getProgramName_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalRenderInformation_getProgramName_0(self));
 };
 
 GlobalRenderInformation.prototype['setProgramName'] = function(arg0) {
@@ -2751,7 +2751,7 @@ GlobalRenderInformation.prototype['setProgramName'] = function(arg0) {
 
 GlobalRenderInformation.prototype['getProgramVersion'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalRenderInformation_getProgramVersion_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalRenderInformation_getProgramVersion_0(self));
 };
 
 GlobalRenderInformation.prototype['setProgramVersion'] = function(arg0) {
@@ -2763,7 +2763,7 @@ GlobalRenderInformation.prototype['setProgramVersion'] = function(arg0) {
 
 GlobalRenderInformation.prototype['getBackgroundColor'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GlobalRenderInformation_getBackgroundColor_0(self));
+  return UTF8ToString(_emscripten_bind_GlobalRenderInformation_getBackgroundColor_0(self));
 };
 
 GlobalRenderInformation.prototype['setBackgroundColor'] = function(arg0) {
@@ -2898,7 +2898,7 @@ Rule.prototype['isAlgebraic'] = function() {
 
 Rule.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Rule_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_Rule_getMetaId_0(self));
 };
 
 Rule.prototype['setMetaId'] = function(arg0) {
@@ -2932,7 +2932,7 @@ Rule.prototype['isSetSBOTerm'] = function() {
 
 Rule.prototype['getFormula'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Rule_getFormula_0(self));
+  return UTF8ToString(_emscripten_bind_Rule_getFormula_0(self));
 };
 
 Rule.prototype['setFormula'] = function(arg0) {
@@ -3079,7 +3079,7 @@ Module['LocalStyle'] = LocalStyle;
 
 LocalStyle.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalStyle_getId_0(self));
+  return UTF8ToString(_emscripten_bind_LocalStyle_getId_0(self));
 };
 
 LocalStyle.prototype['setId'] = function(arg0) {
@@ -3096,7 +3096,7 @@ LocalStyle.prototype['isSetId'] = function() {
 
 LocalStyle.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalStyle_getName_0(self));
+  return UTF8ToString(_emscripten_bind_LocalStyle_getName_0(self));
 };
 
 LocalStyle.prototype['setName'] = function(arg0) {
@@ -3144,12 +3144,12 @@ LocalStyle.prototype['getNumRoles'] = function() {
 
 LocalStyle.prototype['createRoleString'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalStyle_createRoleString_0(self));
+  return UTF8ToString(_emscripten_bind_LocalStyle_createRoleString_0(self));
 };
 
 LocalStyle.prototype['createTypeString'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LocalStyle_createTypeString_0(self));
+  return UTF8ToString(_emscripten_bind_LocalStyle_createTypeString_0(self));
 };
 
 LocalStyle.prototype['addRole'] = function(arg0) {
@@ -3213,17 +3213,17 @@ Module['SBasePlugin'] = SBasePlugin;
 
 SBasePlugin.prototype['getPackageName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SBasePlugin_getPackageName_0(self));
+  return UTF8ToString(_emscripten_bind_SBasePlugin_getPackageName_0(self));
 };
 
 SBasePlugin.prototype['getPrefix'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SBasePlugin_getPrefix_0(self));
+  return UTF8ToString(_emscripten_bind_SBasePlugin_getPrefix_0(self));
 };
 
 SBasePlugin.prototype['getURI'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SBasePlugin_getURI_0(self));
+  return UTF8ToString(_emscripten_bind_SBasePlugin_getURI_0(self));
 };
 
 SBasePlugin.prototype['getVersion'] = function() {
@@ -3421,7 +3421,7 @@ Polygon.prototype['createCubicBezier'] = function() {
 
 Polygon.prototype['getElementName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Polygon_getElementName_0(self));
+  return UTF8ToString(_emscripten_bind_Polygon_getElementName_0(self));
 };
 
 Polygon.prototype['getTypeCode'] = function() {
@@ -3443,7 +3443,7 @@ Module['GradientStop'] = GradientStop;
 
 GradientStop.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GradientStop_getId_0(self));
+  return UTF8ToString(_emscripten_bind_GradientStop_getId_0(self));
 };
 
 GradientStop.prototype['setId'] = function(arg0) {
@@ -3474,7 +3474,7 @@ GradientStop.prototype['setOffset'] = function(arg0, arg1) {
 
 GradientStop.prototype['getStopColor'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GradientStop_getStopColor_0(self));
+  return UTF8ToString(_emscripten_bind_GradientStop_getStopColor_0(self));
 };
 
 GradientStop.prototype['setStopColor'] = function(arg0) {
@@ -3498,7 +3498,7 @@ Module['Model'] = Model;
 
 Model.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Model_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Model_getId_0(self));
 };
 
 Model.prototype['setId'] = function(arg0) {
@@ -3510,7 +3510,7 @@ Model.prototype['setId'] = function(arg0) {
 
 Model.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Model_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_Model_getMetaId_0(self));
 };
 
 Model.prototype['setMetaId'] = function(arg0) {
@@ -3638,7 +3638,7 @@ Model.prototype['getPlugin'] = function(arg0) {
 
 Model.prototype['getNotesString'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Model_getNotesString_0(self));
+  return UTF8ToString(_emscripten_bind_Model_getNotesString_0(self));
 };
 
   Model.prototype['__destroy__'] = function() {
@@ -3655,7 +3655,7 @@ Module['RenderGroup'] = RenderGroup;
 
 RenderGroup.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getId_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getId_0(self));
 };
 
 RenderGroup.prototype['setId'] = function(arg0) {
@@ -3672,7 +3672,7 @@ RenderGroup.prototype['isSetId'] = function() {
 
 RenderGroup.prototype['getFontFamily'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getFontFamily_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getFontFamily_0(self));
 };
 
 RenderGroup.prototype['setFontFamily'] = function(arg0) {
@@ -3754,12 +3754,12 @@ RenderGroup.prototype['isSetVTextAnchor'] = function() {
 
 RenderGroup.prototype['getStartHead'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getStartHead_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getStartHead_0(self));
 };
 
 RenderGroup.prototype['getEndHead'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getEndHead_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getEndHead_0(self));
 };
 
 RenderGroup.prototype['getNumElements'] = function() {
@@ -3776,7 +3776,7 @@ RenderGroup.prototype['getElement'] = function(arg0) {
 
 RenderGroup.prototype['getElementName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getElementName_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getElementName_0(self));
 };
 
 RenderGroup.prototype['createImage'] = function() {
@@ -3860,7 +3860,7 @@ RenderGroup.prototype['setFillColor'] = function(arg0) {
 
 RenderGroup.prototype['getFillColor'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getFillColor_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getFillColor_0(self));
 };
 
 RenderGroup.prototype['isSetFillColor'] = function() {
@@ -3882,7 +3882,7 @@ RenderGroup.prototype['setStroke'] = function(arg0) {
 
 RenderGroup.prototype['getStroke'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderGroup_getStroke_0(self));
+  return UTF8ToString(_emscripten_bind_RenderGroup_getStroke_0(self));
 };
 
 RenderGroup.prototype['isSetStroke'] = function() {
@@ -3975,7 +3975,7 @@ Module['AlgebraicRule'] = AlgebraicRule;
 
 AlgebraicRule.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_AlgebraicRule_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_AlgebraicRule_getMetaId_0(self));
 };
 
 AlgebraicRule.prototype['setMetaId'] = function(arg0) {
@@ -4009,7 +4009,7 @@ AlgebraicRule.prototype['isSetSBOTerm'] = function() {
 
 AlgebraicRule.prototype['getFormula'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_AlgebraicRule_getFormula_0(self));
+  return UTF8ToString(_emscripten_bind_AlgebraicRule_getFormula_0(self));
 };
 
 AlgebraicRule.prototype['setFormula'] = function(arg0) {
@@ -4091,12 +4091,12 @@ Module['RenderCurve'] = RenderCurve;
 
 RenderCurve.prototype['getStartHead'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderCurve_getStartHead_0(self));
+  return UTF8ToString(_emscripten_bind_RenderCurve_getStartHead_0(self));
 };
 
 RenderCurve.prototype['getEndHead'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderCurve_getEndHead_0(self));
+  return UTF8ToString(_emscripten_bind_RenderCurve_getEndHead_0(self));
 };
 
 RenderCurve.prototype['isSetStartHead'] = function() {
@@ -4174,7 +4174,7 @@ Module['SpeciesReferenceGlyph'] = SpeciesReferenceGlyph;
 
 SpeciesReferenceGlyph.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SpeciesReferenceGlyph_getId_0(self));
+  return UTF8ToString(_emscripten_bind_SpeciesReferenceGlyph_getId_0(self));
 };
 
 SpeciesReferenceGlyph.prototype['setId'] = function(arg0) {
@@ -4235,7 +4235,7 @@ Module['Point'] = Point;
 
 Point.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Point_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Point_getId_0(self));
 };
 
 Point.prototype['setId'] = function(arg0) {
@@ -4372,7 +4372,7 @@ Text.prototype['getZ'] = function() {
 
 Text.prototype['getFontFamily'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Text_getFontFamily_0(self));
+  return UTF8ToString(_emscripten_bind_Text_getFontFamily_0(self));
 };
 
 Text.prototype['setFontFamily'] = function(arg0) {
@@ -4485,7 +4485,7 @@ Module['GeneralGlyph'] = GeneralGlyph;
 
 GeneralGlyph.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_GeneralGlyph_getId_0(self));
+  return UTF8ToString(_emscripten_bind_GeneralGlyph_getId_0(self));
 };
 
 GeneralGlyph.prototype['setId'] = function(arg0) {
@@ -4632,7 +4632,7 @@ SpeciesGlyph.prototype['setBoundingBox'] = function(arg0) {
 
 SpeciesGlyph.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SpeciesGlyph_getId_0(self));
+  return UTF8ToString(_emscripten_bind_SpeciesGlyph_getId_0(self));
 };
 
 SpeciesGlyph.prototype['setId'] = function(arg0) {
@@ -4649,7 +4649,7 @@ SpeciesGlyph.prototype['isSetId'] = function() {
 
 SpeciesGlyph.prototype['getSpeciesId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_SpeciesGlyph_getSpeciesId_0(self));
+  return UTF8ToString(_emscripten_bind_SpeciesGlyph_getSpeciesId_0(self));
 };
 
 SpeciesGlyph.prototype['setSpeciesId'] = function(arg0) {
@@ -4772,7 +4772,7 @@ RenderCubicBezier.prototype['setBasePoint2'] = function(arg0, arg1, arg2) {
 
 RenderCubicBezier.prototype['getElementName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_RenderCubicBezier_getElementName_0(self));
+  return UTF8ToString(_emscripten_bind_RenderCubicBezier_getElementName_0(self));
 };
 
 RenderCubicBezier.prototype['getTypeCode'] = function() {
@@ -4816,7 +4816,7 @@ TextGlyph.prototype['setBoundingBox'] = function(arg0) {
 
 TextGlyph.prototype['getText'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_TextGlyph_getText_0(self));
+  return UTF8ToString(_emscripten_bind_TextGlyph_getText_0(self));
 };
 
 TextGlyph.prototype['setText'] = function(arg0) {
@@ -4944,7 +4944,7 @@ Image.prototype['setImageReference'] = function(arg0) {
 
 Image.prototype['getImageReference'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Image_getImageReference_0(self));
+  return UTF8ToString(_emscripten_bind_Image_getImageReference_0(self));
 };
 
 Image.prototype['isSetImageReference'] = function() {
@@ -4971,7 +4971,7 @@ Module['BoundingBox'] = BoundingBox;
 
 BoundingBox.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_BoundingBox_getId_0(self));
+  return UTF8ToString(_emscripten_bind_BoundingBox_getId_0(self));
 };
 
 BoundingBox.prototype['setId'] = function(arg0) {
@@ -5094,7 +5094,7 @@ Module['CompartmentGlyph'] = CompartmentGlyph;
 
 CompartmentGlyph.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_CompartmentGlyph_getId_0(self));
+  return UTF8ToString(_emscripten_bind_CompartmentGlyph_getId_0(self));
 };
 
 CompartmentGlyph.prototype['setId'] = function(arg0) {
@@ -5123,7 +5123,7 @@ Module['Species'] = Species;
 
 Species.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Species_getId_0(self));
+  return UTF8ToString(_emscripten_bind_Species_getId_0(self));
 };
 
 Species.prototype['setId'] = function(arg0) {
@@ -5135,7 +5135,7 @@ Species.prototype['setId'] = function(arg0) {
 
 Species.prototype['getMetaId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Species_getMetaId_0(self));
+  return UTF8ToString(_emscripten_bind_Species_getMetaId_0(self));
 };
 
 Species.prototype['setMetaId'] = function(arg0) {
@@ -5147,7 +5147,7 @@ Species.prototype['setMetaId'] = function(arg0) {
 
 Species.prototype['getName'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Species_getName_0(self));
+  return UTF8ToString(_emscripten_bind_Species_getName_0(self));
 };
 
 Species.prototype['setName'] = function(arg0) {
@@ -5210,7 +5210,7 @@ Species.prototype['isSetHasOnlySubstanceUnits'] = function() {
 
 Species.prototype['getCompartment'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Species_getCompartment_0(self));
+  return UTF8ToString(_emscripten_bind_Species_getCompartment_0(self));
 };
 
 Species.prototype['setCompartment'] = function(arg0) {
@@ -5227,7 +5227,7 @@ Species.prototype['isSetCompartment'] = function() {
 
 Species.prototype['getUnits'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_Species_getUnits_0(self));
+  return UTF8ToString(_emscripten_bind_Species_getUnits_0(self));
 };
 
 Species.prototype['setUnits'] = function(arg0) {
@@ -5273,7 +5273,7 @@ Module['LinearGradient'] = LinearGradient;
 
 LinearGradient.prototype['getId'] = function() {
   var self = this.ptr;
-  return Pointer_stringify(_emscripten_bind_LinearGradient_getId_0(self));
+  return UTF8ToString(_emscripten_bind_LinearGradient_getId_0(self));
 };
 
 LinearGradient.prototype['setId'] = function(arg0) {
