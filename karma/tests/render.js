@@ -66,6 +66,15 @@ describe("Render test", function() {
           ellipse.setCenter2D(new libsbml.RelAbsVector(0, 50), new libsbml.RelAbsVector(0, 50))
           ellipse.setRadii(new libsbml.RelAbsVector(0, 50), new libsbml.RelAbsVector(0, 50))
 
+          // Added test case for setEndHead:
+          const style2 = rInfo.createStyle("lineEndID1")
+          style2.addType("REACTIONGLYPH")
+          style2.getGroup().setEndHead("arrowEnd")
+          style2.getGroup().setStartHead("arrowHead")
+          style2.getGroup().setFillColor("red")
+          style2.getGroup().setStroke("red")
+          style2.getGroup().setStrokeWidth(2.0)
+
           const writer = new libsbml.SBMLWriter()
           const serializedSBML = writer.writeSBMLToString(doc)
 
@@ -75,6 +84,8 @@ describe("Render test", function() {
           expect(serializedSBML).toContain('render:renderInformation')
           expect(serializedSBML).toContain('render:colorDefinition')
           expect(serializedSBML).toContain('render:linearGradient')
+          expect(serializedSBML).toContain('render:endHead')
+          expect(serializedSBML).toContain('render:startHead')
 
           const reader = new libsbml.SBMLReader()
 

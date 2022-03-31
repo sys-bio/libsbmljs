@@ -343,6 +343,8 @@ interface RenderGroup {
 
   DOMString getStartHead();
   DOMString getEndHead();
+  void setStartHead(DOMString head); // bej
+  void setEndHead(DOMString head);  // bej
 
   unsigned long getNumElements();
   Transformation2D getElement(unsigned long n);
