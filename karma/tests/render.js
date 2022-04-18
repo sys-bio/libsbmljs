@@ -61,7 +61,7 @@ describe("Render test", function() {
           style.getGroup().setStroke("black")
           style.getGroup().setStrokeWidth(2.0)
           style.addType("SPECIESGLYPH")
-
+          style.addId("node1SpeciesGlyph")  // bej added
           const ellipse = style.getGroup().createEllipse()
           ellipse.setCenter2D(new libsbml.RelAbsVector(0, 50), new libsbml.RelAbsVector(0, 50))
           ellipse.setRadii(new libsbml.RelAbsVector(0, 50), new libsbml.RelAbsVector(0, 50))
@@ -74,7 +74,7 @@ describe("Render test", function() {
           style2.getGroup().setFillColor("red")
           style2.getGroup().setStroke("red")
           style2.getGroup().setStrokeWidth(2.0)
-
+          
           const writer = new libsbml.SBMLWriter()
           const serializedSBML = writer.writeSBMLToString(doc)
 
@@ -86,7 +86,8 @@ describe("Render test", function() {
           expect(serializedSBML).toContain('render:linearGradient')
           expect(serializedSBML).toContain('render:endHead')
           expect(serializedSBML).toContain('render:startHead')
-
+          expect(serializedSBML).toContain('render:typeList')
+          expect(serializedSBML).toContain('render:idList')
           const reader = new libsbml.SBMLReader()
 
           const doc_after = reader.readSBMLFromString(serializedSBML)

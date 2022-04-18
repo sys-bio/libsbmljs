@@ -22,6 +22,7 @@ interface LocalStyle {
   long setName(DOMString name);
 
   unsigned long getNumIds();
+  void addId(DOMString id);  
   boolean isInIdList(DOMString id);
   void removeId(DOMString id);
 
@@ -343,8 +344,8 @@ interface RenderGroup {
 
   DOMString getStartHead();
   DOMString getEndHead();
-  void setStartHead(DOMString head); // bej
-  void setEndHead(DOMString head);  // bej
+  void setStartHead(DOMString head); 
+  void setEndHead(DOMString head);  
 
   unsigned long getNumElements();
   Transformation2D getElement(unsigned long n);
